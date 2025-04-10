@@ -8,23 +8,71 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>🚀 Developer Onboarding Interactive Tutorial</h1>
-      <p>Follow each step to set up your environment and build your first project!</p>
-      <div id="progress"></div>
-    </header>
-    <main>
-      <div id="step-card">
-        <!-- Step content will be injected here -->
+    <!-- Onboarding Instructions Dropdown (front and center during OS selection) -->
+    <details id="onboarding-instructions-dropdown" open style="margin-bottom: 24px;">
+      <summary style="font-size:1.15rem; font-weight:600; cursor:pointer;">How to use this tutorial</summary>
+      <div style="margin-top:12px;">
+        <ul>
+          <li>Each step is a real onboarding task. Read the instructions and complete the activity.</li>
+          <li>Use the <b>Next</b> and <b>Back</b> buttons below to move through the steps. You can also use <kbd>n</kbd> for next and <kbd>b</kbd> for back.</li>
+          <li>For long commands, use the <b>Copy</b> button to copy them to your clipboard.</li>
+          <li>Your progress is shown at the top. You can revisit any step at any time.</li>
+        </ul>
+        <div style="margin-top:8px;">Let's get started!</div>
       </div>
-      <div class="controls">
-        <button id="prev-btn" disabled>Back</button>
-        <button id="next-btn">Next</button>
+    </details>
+    <!-- OS Selection UI -->
+    <div id="os-select-panel">
+      <h2>Choose your operating system to begin:</h2>
+      <div style="display: flex; justify-content: center; gap: 24px; margin: 24px 0;">
+        <button id="select-mac-btn" style="min-width:120px;">Mac</button>
+        <button id="select-win-btn" style="min-width:120px;">Windows</button>
       </div>
-    </main>
-    <footer>
-      <p>Made with ❤️ for new developers</p>
-    </footer>
+      <p style="text-align:center; color:#666; font-size:1rem;">You'll see instructions tailored for your system.</p>
+    </div>
+    <!-- Tutorial Content (hidden until OS is selected) -->
+    <div id="tutorial-content" style="display:none;">
+      <!-- Onboarding Instructions Dropdown (minimized, above tutorial content) -->
+      <details id="onboarding-instructions-dropdown-tutorial" style="margin-bottom: 18px; display:none;">
+        <summary style="font-size:1.05rem; font-weight:600; cursor:pointer;">How to use this tutorial</summary>
+        <div style="margin-top:10px;">
+          <ul>
+            <li>Each step is a real onboarding task. Read the instructions and complete the activity.</li>
+            <li>Use the <b>Next</b> and <b>Back</b> buttons below to move through the steps. You can also use <kbd>n</kbd> for next and <kbd>b</kbd> for back.</li>
+            <li>For long commands, use the <b>Copy</b> button to copy them to your clipboard.</li>
+            <li>Your progress is shown at the top. You can revisit any step at any time.</li>
+          </ul>
+          <div style="margin-top:8px;">Let's get started!</div>
+        </div>
+      </details>
+      <header>
+        <h1>🚀 Developer Onboarding Interactive Tutorial</h1>
+        <p>
+          Welcome! This interactive tutorial will guide you step-by-step through setting up your developer environment and building your first project.<br>
+          <strong>How to use this tutorial:</strong>
+          <ul>
+            <li>Each step is a real onboarding task. Read the instructions and complete the activity.</li>
+            <li>Use the <b>Next</b> and <b>Back</b> buttons below to move through the steps. You can also use <kbd>n</kbd> for next and <kbd>b</kbd> for back.</li>
+            <li>For long commands, use the <b>Copy</b> button to copy them to your clipboard.</li>
+            <li>Your progress is shown at the top. You can revisit any step at any time.</li>
+          </ul>
+          Let's get started!
+        </p>
+        <div id="progress"></div>
+      </header>
+      <main>
+        <div id="step-card">
+          <!-- Step content will be injected here -->
+        </div>
+        <div class="controls">
+          <button id="prev-btn" disabled>Back</button>
+          <button id="next-btn">Next</button>
+        </div>
+      </main>
+      <footer>
+        <p>Made with ❤️ for new developers</p>
+      </footer>
+    </div>
   </div>
   <script src="tutorial.js"></script>
 </body>
