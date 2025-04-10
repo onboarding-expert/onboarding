@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f9fb;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.container {
+  max-width: 540px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 16px 24px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+#progress {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #0070f3;
+}
+
+main {
+  min-height: 220px;
+}
+
+#step-card {
+  background: #f0f4fa;
+  border-radius: 8px;
+  padding: 24px 18px;
+  margin-bottom: 18px;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+button {
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #005bb5;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 18px;
+}
