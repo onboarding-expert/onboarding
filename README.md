@@ -8,10 +8,10 @@ Whether you're brand new or just need a refresher, this **friendly, beginner-foc
 
 ## How This Works
 
-- The guide is split into **5 easy modules**.
+- The guide is split into **6 easy modules**.
 - Each module has **clear steps** with **extra help** in dropdowns.
 - You'll learn **why** each step matters, not just what to do.
-- By the end, you'll have a **fully set up developer environment**!
+- By the end, you'll have a **fully set up developer environment** and your own website!
 
 ---
 
@@ -21,10 +21,7 @@ Whether you're brand new or just need a refresher, this **friendly, beginner-foc
 
 Get your Mac or Windows PC **ready for development**.
 
-- **Update your system** for security and compatibility.
-- **Set up permissions** so tools work smoothly.
-- **Install developer basics** like Xcode CLI or Windows Terminal.
-- **Create a workspace folder** to keep projects organized.
+- Update your system, set permissions, install developer basics, create a workspace.
 - **Goal:** A clean, updated, developer-ready computer!
 
 ---
@@ -33,10 +30,7 @@ Get your Mac or Windows PC **ready for development**.
 
 Learn how to **save your code online** and **collaborate**.
 
-- **Sign up for GitHub**, the world's biggest code platform.
-- **Install Git**, the tool to track changes in your code.
-- **Set up SSH keys** for secure, password-free access.
-- **Create your first repository** and clone it to your computer.
+- Sign up for GitHub, install Git, set up SSH keys, create your first repo.
 - **Goal:** Share, backup, and collaborate on your code with ease!
 
 ---
@@ -45,9 +39,7 @@ Learn how to **save your code online** and **collaborate**.
 
 Install all the tools you need **quickly and safely**.
 
-- **Learn about package managers** (Homebrew & Chocolatey).
-- **Install Node.js, Python, Git, and more** with one command.
-- **Keep your tools updated** easily.
+- Learn about package managers, install Node.js, Python, Git, and more.
 - **Goal:** A powerful toolkit installed in minutes!
 
 ---
@@ -56,10 +48,7 @@ Install all the tools you need **quickly and safely**.
 
 Connect your projects to **powerful AI models**.
 
-- **Create an OpenRouter account**.
-- **Generate and store your API key** securely.
-- **Test your connection** to AI services.
-- **Learn how OpenRouter powers chatbots, code helpers, and more**.
+- Create an OpenRouter account, generate/store API keys, test your connection.
 - **Goal:** Unlock AI superpowers for your apps!
 
 ---
@@ -68,12 +57,19 @@ Connect your projects to **powerful AI models**.
 
 Set up your **coding workspace** with smart AI help.
 
-- **Install Visual Studio Code**, a popular, free code editor.
-- **Add extensions** like Prettier and Roo.
-- **Link your OpenRouter API key** to Roo.
-- **Test Roo's AI features** inside VS Code.
-- **Customize your editor** for comfort and productivity.
+- Install VS Code, add extensions, link your API key, test Roo, customize your editor.
 - **Goal:** A smart, personalized coding environment!
+
+---
+
+### **[Module 6: Build Your Personal Website with AI](module6_personal_website.md)**
+
+Create your **own personal website** with the help of an AI assistant.
+
+- Chat with AI to generate your bio, skills, and projects.
+- Build a simple website with HTML and CSS.
+- Learn basic troubleshooting.
+- **Goal:** Showcase your skills and projects online!
 
 ---
 
@@ -88,7 +84,7 @@ Set up your **coding workspace** with smart AI help.
 
 # 🎉 By the End...
 
-You'll have a **fully set up, AI-powered developer environment** ready for your first project!
+You'll have a **fully set up, AI-powered developer environment** and a **personal website** ready to share with the world!
 
 ---
 
