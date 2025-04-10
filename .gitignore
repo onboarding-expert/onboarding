@@ -1,0 +1,55 @@
+# Ignore environment variable files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore SSH keys and configs
+*.pem
+*.key
+*.pub
+.ssh/
+.ssh_config
+id_*
+known_hosts
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore node modules (if using Node.js)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+out/
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# Ignore personal Git config
+.gitconfig
+
+# Ignore onboarding image if desired
+# onboarding_image.jpg
+
+# Ignore any secrets or API keys accidentally added
+*.secret
+*.env.*
